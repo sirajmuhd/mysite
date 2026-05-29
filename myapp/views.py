@@ -1,10 +1,15 @@
 from django.shortcuts import render
 
-def employee_list(request):
+def home(request):
+    return render(request,'home.html')
 
-    employees = [
-        {'name':'Rahul','job_title':'Developer','salary':50000,'full_time':True},
-        {'name':'Aisha','job_title':'Designer','salary':30000,'full_time':False},
-    ]
+def result(request):
 
-    return render(request,'index.html',{'employees':employees})
+    username = request.GET.get('username')
+
+    data = request.GET
+
+    return render(request,'result.html',{
+        'username': username,
+        'data': data
+    })
