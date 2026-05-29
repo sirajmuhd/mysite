@@ -1,28 +1,39 @@
-body {
-    font-family: Arial;
-    text-align: center;
-    background-color: #f0f0f0;
-    margin-top: 100px;
+body{
+
+text-align:center;
+
+font-family:Arial;
+
+background:#eeeeee;
+
 }
 
-h1 {
-    color: darkblue;
+h1{
+
+color:blue;
+
 }
 
-button {
-    padding: 10px 20px;
-    background-color: blue;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+img{
+
+width:300px;
+
+margin:10px;
+
+border-radius:10px;
+
 }
 
-button:hover {
-    background-color: darkblue;
-}
+button{
 
-a {
-    text-decoration: none;
-    color: green;
+padding:10px;
+
+background:green;
+
+color:white;
+
+border:none;
+
+cursor:pointer;
+
 }

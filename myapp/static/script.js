@@ -1,3 +1,5 @@
-function showMessage() {
-    alert("Hello! Welcome to My Page");
+function showMessage(){
+
+alert("Thank you for contacting me!")
+
 }
